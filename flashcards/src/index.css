@@ -1,0 +1,57 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(223, 145, 145, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+.flashcard-card:hover {
+  box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+}
+
+.flash-card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  padding: 2em;
+  margin: 1em auto;
+  max-width: 40px;
+  text-align: center;
+}
+
+.flash-question {
+  font-size: 1.25em;
+  font-weight: 600;
+  color: #21517a;
+  margin-bottom: 1em;
+}
+
+
+
+
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #21517a;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+
+
+
+
+  }
+}
