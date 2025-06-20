@@ -20,4 +20,4 @@ Clicking on a flipped card again flips it back, showing the front
  Clicking on the next button displays a random new card
 
 Video Walkthrough
- Here's a walkthrough of implemented features: Demo GIF
+ Here's a walkthrough of implemented features: [img src =](https://submissions.us-east-1.linodeobjects.com/web102/Vk_qefng.gif)
