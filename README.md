@@ -1,4 +1,11 @@
-# WEB102PROJ2
+WEB102 Beautiful Flowers of the World: Trinity Dhillon
+
+Time spent: 5 hours spent in total
+
+Required Features
+
+The following required functionality is completed:
+
 The app displays the title of the card set, a short description, and the total number of cards
 Title of card set is displayed
 A short description of the card set is displayed
@@ -11,3 +18,6 @@ Only one half of the information pair is displayed at a time
 Clicking on a card flips it over, showing the back with corresponding information
 Clicking on a flipped card again flips it back, showing the front
  Clicking on the next button displays a random new card
+
+Video Walkthrough
+ Here's a walkthrough of implemented features: Demo GIF
