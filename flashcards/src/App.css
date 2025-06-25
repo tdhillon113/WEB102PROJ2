@@ -8,14 +8,13 @@
 .app {
   min-height: 100vh;
   padding: 20px;
-  font-family: Tahoma, 'Geneva', Verdana, 'sans-serif';
+  font-family: Tahoma, "Geneva", Verdana, "sans-serif";
 }
 
 .container {
   max-width: 800px;
   margin: 0 auto;
 }
-
 
 .header {
   text-align: center;
@@ -30,15 +29,13 @@
   margin-bottom: 20px;
 }
 
-
 .title {
   font-size: 2.5rem;
-  font-family: 'Georgia', serif;
+  font-family: "Georgia", serif;
   font-weight: bold;
   color: #e793cf;
   margin: 0;
 }
-
 
 /* Flashcard Styles */
 .flashcard-container {
@@ -87,27 +84,29 @@
 .card-content {
   text-align: center;
   width: 100%;
+  padding: 8px 4px;
+  font-size: 1rem;
+  line-height: 1.2;
 }
-
 
 .card-title {
   font-size: 1.5rem;
   font-weight: 600;
-  font-family: 'Georgia', serif;
+  font-family: "Georgia", serif;
   color: #fcfcfc;
-  margin-bottom: 20px;
+  margin-bottom: 6px;
 }
 
 .answer-title {
   font-size: 1.5rem;
   font-weight: bold;
   color: #e9f0ec;
-  margin-bottom: 20px;
+  margin-bottom: 6px;
 }
 
 .card-text {
   color: #e3e3e3;
-  font-family: 'Georgia', serif;
+  font-family: "Georgia", serif;
   line-height: 1.6;
   font-size: 1.1rem;
   margin-bottom: 20px;
@@ -116,7 +115,8 @@
 .card-hint {
   font-size: 0.9rem;
   color: #fdfeff;
-  font-family: 'Georgia', serif;
+  font-family: "Georgia", serif;
+  margin-top: 6px;
   font-style: italic;
 }
 
@@ -141,7 +141,7 @@
   border: none;
   border-radius: 12px;
   font-weight: 600;
-  font-family: 'Georgia', serif;
+  font-family: "Georgia", serif;
   cursor: pointer;
   transition: all 0.3s ease;
   font-size: 1rem;
@@ -155,8 +155,6 @@
   border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-
-
 .btn-next {
   background: linear-gradient(135deg, #a93a71 0%, #8b5cf6 100%);
   color: white;
@@ -167,6 +165,25 @@
   transform: translateY(-2px) scale(1.05);
   box-shadow: 0 8px 25px rgba(236, 72, 153, 0.5);
 }
+.btn {
+  padding: 8px 16px;
+  border-radius: 6px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.btn-prev {
+  background: linear-gradient(135deg, #a93a71 0%, #8b5cf6 100%);
+  box-shadow: 0 8px 25px rgba(236, 72, 153, 0.5);
+  /* color: #21517a; */
+}
+.btn-prev:hover {
+   transform: translateY(-2px) scale(1.05);
+  box-shadow: 0 8px 25px rgba(236, 72, 153, 0.5);
+}
+
 
 @media (max-width: 768px) {
   .title {
